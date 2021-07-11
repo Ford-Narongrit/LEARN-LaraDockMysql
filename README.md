@@ -11,7 +11,7 @@
     cp .env.example .env
     php artisan key:generate
     ```
-* ในขั้นตอนนี้สามารถใช้ ``docker-compose exec php`` เพื่อเข้าไปใช้ command ในเครือง docker แทนได้เช่น ``docker-compose exec php php artisan key:generate``
+* ในขั้นตอนนี้สามารถใช้ ``docker-compose exec php`` เพื่อเข้าไปใช้ command ในเครื่อง docker แทนได้เช่น ``docker-compose exec php php artisan key:generate``
 
 5. ลองเข้าไปที่ http://localhost:8088 เพื่อดูผลลัพธ์
 
@@ -33,7 +33,7 @@
 |     |-- default.conf => config websever
 |
 |-- src => !edit in here
-|    |-- pubilc => ตัวเริ่มจำเป็นตเองมี index.php หรือ index.html
+|    |-- pubilc => ตัวเริ่มจำเป็นต้องมี index.php หรือ index.html
 |
 |-- Dockerfile
 |-- docker-compose.yml
