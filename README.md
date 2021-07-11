@@ -40,6 +40,6 @@
 ```
 
 ## ref
-* https://www.youtube.com/watch?v=5N6gTVCG_rw
+* คลิปสอน: https://www.youtube.com/watch?v=5N6gTVCG_rw
 
-* https://github.com/aschmelyun/docker-compose-laravel
+* github ของคลิปสอน: https://github.com/aschmelyun/docker-compose-laravel
